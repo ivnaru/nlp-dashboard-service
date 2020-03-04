@@ -1,0 +1,18 @@
+{
+  "name": "Analysis",
+  "plural": "analysiss",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "dashboardId": "string",
+    "sentiments": "object",
+    "frequencies": "object"
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

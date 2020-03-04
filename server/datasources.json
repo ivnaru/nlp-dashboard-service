@@ -1,0 +1,29 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongodbDashboard": {
+    "url": "${MONGODB_URL}",
+    "host": "localhost",
+    "port": 27017,
+    "database": "nlp-dashboards",
+    "password": "",
+    "user": "",
+    "name": "mongodb",
+    "connector": "mongodb",
+    "allowExtendedOperators": true
+  },
+  "mongodbNLP": {
+    "url": "${MONGODB_URL}",
+    "host": "localhost",
+    "port": 27017,
+    "database": "nlp-analysis",
+    "password": "",
+    "user": "",
+    "name": "mongodb",
+    "connector": "mongodb",
+    "allowExtendedOperators": true
+  }
+}
+

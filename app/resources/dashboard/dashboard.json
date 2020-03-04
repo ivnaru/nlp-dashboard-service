@@ -1,0 +1,21 @@
+{
+  "name": "Dashboard",
+  "plural": "dashboards",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": "string",
+    "createdAt": {
+      "type": "date",
+      "defaultFn": "$now"
+    },
+    "items": "object"
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
